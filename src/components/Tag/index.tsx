@@ -1,6 +1,11 @@
-import React from 'react'
+import { ReactNode } from 'react'
 
-export default function Tag({ children, color }) {
+interface IProps {
+    children: ReactNode;
+    color: string;
+}
+
+export default function Tag({ children, color }: IProps) {
     return (
         <span
             style={{
