@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f30723a-ef7a-437a-a3c6-b08331f59543/deploy-status)](https://app.netlify.com/sites/surveyking-docs/deploys)
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
