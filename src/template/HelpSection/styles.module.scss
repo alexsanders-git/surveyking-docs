@@ -94,3 +94,14 @@
         right: -15%;
     }
 }
+
+
+[data-theme='dark'] {
+    .link {
+        color: #e3e3e3;
+    }
+
+    .linkBlocks {
+        background: transparent;
+    }
+}
