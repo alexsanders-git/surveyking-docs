@@ -2,6 +2,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import HeroSection from '../template/Hero';
+import StartedNow from '../template/StartedNow';
 import HelpSection from '../template/HelpSection';
 import InfoSection from '../template/InfoSection';
 
@@ -119,6 +120,7 @@ export default function Home(): JSX.Element {
           linkName='View the guide'
           linkURL='#'
         />
+        <StartedNow />
       </main>
     </Layout>
   );

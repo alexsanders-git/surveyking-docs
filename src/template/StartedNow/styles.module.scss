@@ -1,0 +1,44 @@
+.section {
+    padding: 150px 0;
+    background-color: #36383B;
+    color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.description {
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 1.2;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    transition: all .25s ease-in-out;
+
+    &:hover {
+        background: #fff;
+        color: #36383B;
+        border-color: #fff;
+        text-decoration: none;
+    }
+}
