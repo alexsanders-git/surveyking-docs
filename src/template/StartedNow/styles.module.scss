@@ -1,7 +1,13 @@
+@import "src/css/media";
+
 .section {
     padding: 150px 0;
     background-color: #36383B;
     color: #fff;
+
+    @media only screen and (max-width: $media-lg) {
+        padding: 50px 0;
+    }
 }
 
 .wrapper {
@@ -16,12 +22,22 @@
     font-size: 38px;
     font-weight: 400;
     line-height: 1.2;
+
+    @media only screen and (max-width: $media-lg) {
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
 }
 
 .description {
     margin-bottom: 40px;
     font-size: 19px;
     line-height: 1.2;
+
+    @media only screen and (max-width: $media-lg) {
+        margin-bottom: 35px;
+        font-size: 16px;
+    }
 }
 
 .button {
