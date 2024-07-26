@@ -1,11 +1,17 @@
+@import "src/css/media";
+
 .section {
-    margin: 30px 0;
+    margin: 60px 0;
+
+    @media only screen and (max-width: $media-md) {
+        margin: 30px 0;
+    }
 }
 
 .title {
-    font-size: 32px;
+    margin-bottom: 20px;
+    font-size: 25px;
     font-weight: 400;
-    text-align: center;
 }
 
 .description {
@@ -15,4 +21,74 @@
     padding: 30px 0;
     font-size: 18px;
     text-align: center;
+}
+
+.linkBlocks {
+    padding: 32px;
+}
+
+.link {
+    color: #000;
+}
+
+.highlightBlock {
+    padding: 32px;
+    height: 100%;
+    color: #fff;
+
+    @media only screen and (max-width: $media-lg) {
+        padding: 16px;
+    }
+
+    @media only screen and (max-width: $media-md) {
+        padding: 32px;
+    }
+
+    a {
+        color: #fff;
+    }
+}
+
+.blue {
+    margin-right: 60px;
+    background: #4286f5;
+
+    @media only screen and (max-width: $media-xxl) {
+        margin-right: 30px;
+    }
+
+    @media only screen and (max-width: $media-xl) {
+        margin-right: 0;
+    }
+}
+
+.purple {
+    position: relative;
+    margin-left: 60px;
+    background: #5b4dac;
+
+    @media only screen and (max-width: $media-xxl) {
+        margin-left: 30px;
+    }
+
+    @media only screen and (max-width: $media-xl) {
+        margin-left: 0;
+    }
+}
+
+.imageBg {
+    position: absolute;
+    left: auto;
+    top: 35%;
+    right: -25%;
+    width: 150px;
+    opacity: .75;
+
+    @media only screen and (max-width: $media-md) {
+        right: -10%;
+    }
+
+    @media only screen and (max-width: $media-xs) {
+        right: -15%;
+    }
 }
