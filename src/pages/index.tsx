@@ -3,6 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import HeroSection from '../template/Hero';
 import HelpSection from '../template/HelpSection';
+import InfoSection from '../template/InfoSection';
 
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
@@ -100,6 +101,24 @@ export default function Home(): JSX.Element {
         <HeroSection />
         <HelpSection content={linksLeft} largerBlockPosition='right' />
         <HelpSection content={linksRight} largerBlockPosition='left' />
+        <InfoSection
+          title='Employee Survey Guidance'
+          description='Capturing employee feedback is important to ensure your organization workforce is happy and motived to preform at their best levels. The online survey market is cluttered with tools, many of which are low quality, highly priced, or hard to use. Having a company to help guide you through the process can be extremely valuable.'
+          linkName='View the guide'
+          linkURL='#'
+        />
+        <InfoSection
+          title='Employee Survey Guidance'
+          description='Capturing customer feedback is important to ensure your organization is meeting customer needs. The online survey market is cluttered with tools, many of which are low quality, highly priced, or hard to use. Having a company to help guide you through the process can be extremely valuable.'
+          linkName='View the guide'
+          linkURL='#'
+        />
+        <InfoSection
+          title='Create a fresh survey'
+          description='Add as many questions as you want, use skip logic, display logic, and collect unlimited responses. No other survey builder has this many tools!'
+          linkName='View the guide'
+          linkURL='#'
+        />
       </main>
     </Layout>
   );
